@@ -3,6 +3,6 @@ resource "aws_iam_user" "iam_user" {
   path = "/system/"
 
   tags = {
-    tag-key = "tag-value"
+    authy = "auth-001"
   }
 }
